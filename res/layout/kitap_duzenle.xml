@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kitap Adı"
+            android:textSize="@dimen/abc_text_size_title_material_toolbar" />
+
+        <EditText
+            android:id="@+id/et_kd_kitapadi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yazar"
+            android:textSize="@dimen/abc_text_size_title_material_toolbar" />
+
+        <EditText
+            android:id="@+id/et_kd_yazar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tür"
+            android:textSize="@dimen/abc_text_size_title_material_toolbar" />
+
+        <EditText
+            android:id="@+id/et_kd_tur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Açıklama"
+            android:textSize="@dimen/abc_text_size_title_material_toolbar" />
+
+        <EditText
+            android:id="@+id/et_kd_aciklama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        
+			<Button
+            android:id="@+id/btn_kd_Kaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kaydet"
+            android:layout_marginLeft="15dp" />
+        <Button
+            android:id="@+id/btn_kd_sil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Kitap Sil" />
+
+        
+        <Button
+            android:id="@+id/btn_kd_iptal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="İptal"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

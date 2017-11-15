@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tuncamyo.proje_kitaplik.MainActivity" >
+
+   
+    <item 
+        android:id="@+id/action_kitap_ekle" 
+        android:menuCategory="container" 
+        android:title="Kitap Ekle"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        ></item>
+    <item 
+        android:id="@+id/action_cikis" 
+        android:menuCategory="container" 
+        android:title="Çıkış"
+        
+        ></item>
+
+</menu>
